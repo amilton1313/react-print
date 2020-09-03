@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    
+    body {
+      margin:0;
+      padding:0;
+      line-height: 1.4em;
+  
+      }
+  
+      .div01 {
+          height: 200PX;
+          width: 90%;
+          margin: 10px 100px 50px 50px;
+  
+          
+      }
+  
+      .div02 {
+          height: 20px;
+          background-color: green;
+      }
+  
+      .div10 {
+          display: flex;
+          flex-direction: row;
+          background-color: #efeded;
+          Line-height: 1.2;
+          font-weight: bold;
+          padding: 5px;
+      }
+      .div11 {
+          flex: 1;
+      }
+      .div12 {
+          flex: 5;
+      }
+      .div13 {
+          flex: 5;
+      }
+  
+      .div20 {
+          display: flex;
+          flex-direction: row;
+          background-color: white;
+          Line-height: 1.2;
+          padding: 5px;
+      }
+      .div21 {
+          flex: 1;
+      }
+      .div22 {
+          flex: 5;
+      }
+      .div23 {
+          flex: 5;
+      }
+  
+      .divRodape {
+          margin: 30px;
+          display: flex;
+          
+      }
+      .fundo {
+        background-color: blue;
+      }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+      .botao {
+          height: 40px;
+          width: 100px;
+          background-color: yellow;
+          text-decoration: none;
+          Border: 1px solid black;
+          border-radius: 15%;
+      }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+      .container {
+          width: 90%;
+          margin: 20px 50px 20px 50px;
+      }
+      .pulo {
+        page-break-after: always;
+      }
 
-.App-link {
-  color: #61dafb;
-}
+      @page {
+        margin: 0.5cm;
+        size: landscape;
+        }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+    @media print {
+        .container {
+            width: 90%;
+            margin: 20px 50px 20px 50px;
+        }
+      }
+  
+     
+  
+  
+  
+      
