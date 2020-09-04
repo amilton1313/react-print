@@ -2,7 +2,9 @@ import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 import React from "react";
 import Imprimir from "./Imprimir";
-import Componente01 from "./Componente01";
+import Componente01 from "./componentes/PDFViewer/Componente01"
+import TestePrint from "./componentes/TestePrint"
+
 
 
 import './App.css';
@@ -86,6 +88,7 @@ function App() {
   return (
     <div className="container">
       <Componente01  usuarios = {usuarios} />
+
     </div>
   );
 }

@@ -1,0 +1,3 @@
+yarn add @react-pdf/renderer
+
+yarn add react-to-pdf
