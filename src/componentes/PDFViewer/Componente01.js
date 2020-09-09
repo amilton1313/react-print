@@ -48,6 +48,9 @@ class Componente01ToPrint extends React.Component {
     }
 }
 
+
+
+
 class Componente01 extends React.Component {
 
     constructor(props) {
